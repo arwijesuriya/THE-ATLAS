@@ -94,3 +94,48 @@ body{
     font-weight: 400;
     color: #132020;
 }
+
+/* MEDIA QUARIES FOR MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .container {
+        width: 90vw;
+        padding: 2em 1.5em;
+    }
+
+    .searchBox {
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+
+    #searchButton {
+        padding: 0.7em 0;
+    }
+
+    #countryInput {
+        font-size: 0.9em;
+        padding: 0 0.5em;
+    }
+
+    .container .flagImage {
+        width: 50%;
+        min-width: 4em;
+        margin: 1em auto;
+    }
+
+    .container h2 {
+        font-size: 1.5em;
+        margin-bottom: 0.8em;
+    }
+
+    .container h3 {
+        font-size: 1em;
+    }
+
+    .container h4 {
+        font-size: 0.9em;
+    }
+
+    .container span {
+        font-size: 0.9em;
+    }
+}
