@@ -48,7 +48,7 @@ searchButton.addEventListener("click", () => {
                 <div class="countryData">
                     <h4>Area (sq km): </h4>
                     <span>
-                        ${data[0].population}
+                        ${data[0].area}
                     </span>
                 </div>
             </div>
