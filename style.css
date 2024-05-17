@@ -4,3 +4,93 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+body{
+    background-color: #2F4F4F;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 80vw;
+    max-width: 55em;
+    padding: 3em 2.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+}
+
+.searchBox{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.5em;
+}
+
+#searchButton{
+    font-size: 1em;
+    background-color: #2F4F4F;
+    color: #ffffff;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#searchButton:hover{
+    background-color: #132020;
+    color: #2F4F4F;
+}
+
+#countryInput{
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #2F4F4F;
+    color: #132020;
+}
+
+#resultBox{
+    margin-top: 1.25em;
+}
+
+.container .flagImage{
+    display: block;
+    width: 25%;
+    min-width: 5em;
+    margin: 1.8em auto 1.2em auto;
+}
+
+.container h2 {
+    font-weight: 600;
+    color: #132020;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+.countryData{
+    text-align: center;
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+.container h4{
+    display: inline;
+    font-weight: 400;
+    color: #132020;
+}
+
+.container span{
+    font-weight: 500;
+    color: #132020;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #132020;
+}
